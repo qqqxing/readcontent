@@ -13,7 +13,7 @@ if(!isset($_GET['content'])){
 	}else{
 		$result = fwrite($file, $content);
 		fclose($file);
-		print "Result : $result\n";
+		print "Result : $result\n"; 
 	}
 }
 
